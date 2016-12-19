@@ -1,0 +1,66 @@
+<application>
+  <component name="DimensionService">
+    <location key="FileChooserDialogImpl.0.0.1920.1080" x="743" y="474" />
+    <location key="NewModule_or_Project.wizard.0.0.1920.1080" x="610" y="431" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080" x="959" y="230" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1920.1080" x="671" y="423" />
+    <location key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor.0.0.1920.1080" x="543" y="247" />
+    <location key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog.0.0.1920.1080" x="776" y="557" />
+    <location key="SettingsEditor.0.0.1920.1080" x="243" y="208" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1920.1080" x="708" y="752" />
+    <location key="ProcessPopupWindow.0.0.1920.1080" x="566" y="782" />
+    <location key="spring file set editor.0.0.1920.1080" x="190" y="309" />
+    <location key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog.0.0.1920.1080" x="598" y="539" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" x="418" y="292" />
+    <location key="CommitChangelistDialog2.0.0.1920.1080" x="469" y="159" />
+    <location key="Vcs.Push.Dialog.0.0.1920.1080" x="746" y="430" />
+    <location key="#Browse_Repositories.0.0.1920.1080" x="736" y="339" />
+    <location key="#Browse_JetBrains_Plugins_.0.0.1920.1080" x="736" y="369" />
+    <location key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.0.0.1920.1080" x="693" y="571" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.0.1920.1080" x="767" y="432" />
+    <location key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.0.0.1920.1080" x="453" y="54" />
+    <location key="#HTTP_Proxy.0.0.1920.1080" x="884" y="406" />
+    <location key="org.jetbrains.idea.maven.utils.RepositoryAttachDialog.0.0.1920.1080" x="75" y="428" />
+    <location key="#Inspections.0.0.1920.1080" x="595" y="240" />
+    <location key="MergeDialog.0.0.1920.1080" x="170" y="124" />
+    <location key="MultipleFileMergeDialog.0.0.1920.1080" x="641" y="298" />
+    <location key="SettingsEditor.0.0.1920.1080@144dpi" x="302" y="63" />
+    <location key="ProcessPopupWindow.0.0.1920.1080@144dpi" x="961" y="813" />
+    <location key="FileChooserDialogImpl.0.0.1920.1080@144dpi" x="847" y="239" />
+    <location key="#HTTP_Proxy.0.0.1920.1080@144dpi" x="887" y="253" />
+    <location key="#Browse_Repositories.0.0.1920.1080@144dpi" x="747" y="259" />
+    <location key="WELCOME_SCREEN.0.0.1920.1080@144dpi" x="960" y="345" />
+    <location key="new project wizard.0.0.1920.1080" x="498" y="139" />
+    <size key="FileChooserDialogImpl.0.0.1920.1080" width="424" height="606" />
+    <size key="NewModule_or_Project.wizard.0.0.1920.1080" width="905" height="468" />
+    <size key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor.0.0.1920.1080" width="824" height="669" />
+    <size key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog.0.0.1920.1080" width="416" height="199" />
+    <size key="SettingsEditor.0.0.1920.1080" width="1207" height="843" />
+    <size key="ProcessPopupWindow.0.0.1920.1080" width="1350" height="296" />
+    <size key="spring file set editor.0.0.1920.1080" width="1240" height="733" />
+    <size key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog.0.0.1920.1080" width="424" height="302" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1868" height="282" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1868" height="282" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1868" height="282" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1868" height="282" />
+    <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1920.1080" width="1084" height="751" />
+    <size key="CommitChangelistDialog2.0.0.1920.1080" width="974" height="920" />
+    <size key="Vcs.Push.Dialog.0.0.1920.1080" width="486" height="649" />
+    <size key="#Browse_Repositories.0.0.1920.1080" width="824" height="672" />
+    <size key="#Browse_JetBrains_Plugins_.0.0.1920.1080" width="824" height="672" />
+    <size key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.0.0.1920.1080" width="524" height="472" />
+    <size key="#com.intellij.ide.util.MemberChooser.0.0.1920.1080" width="387" height="566" />
+    <size key="#com.intellij.refactoring.rename.AutomaticRenamingDialog.0.0.1920.1080" width="1003" height="1026" />
+    <size key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.1920.1080" width="583" height="267" />
+    <size key="org.jetbrains.idea.maven.utils.RepositoryAttachDialog.0.0.1920.1080" width="804" height="252" />
+    <size key="#Inspections.0.0.1920.1080" width="720" height="653" />
+    <size key="MergeDialog.0.0.1920.1080" width="1560" height="916" />
+    <size key="MultipleFileMergeDialog.0.0.1920.1080" width="627" height="537" />
+    <size key="ProcessPopupWindow.0.0.1920.1080@144dpi" width="869" height="265" />
+    <size key="FileChooserDialogImpl.0.0.1920.1080@144dpi" width="624" height="723" />
+    <size key="#HTTP_Proxy.0.0.1920.1080@144dpi" width="533" height="726" />
+    <size key="#Browse_Repositories.0.0.1920.1080@144dpi" width="824" height="683" />
+    <size key="SettingsEditor.0.0.1920.1080@144dpi" width="1491" height="988" />
+    <size key="new project wizard.0.0.1920.1080" width="913" height="852" />
+  </component>
+</application>
