@@ -1,0 +1,50 @@
+#!/bin/sh
+SERVICE_NAME=server-spring
+HOME=/Users/Ticknick/Projects/Polymerization/apps/girl-pic
+PATH_TO_JAR=$HOME/girl.jar
+PID_PATH_NAME=/tmp/spring_blog.pid
+LOG=$HOME/production.log
+ERROR_LOG=$HOME/production.err
+CONFIG=$HOME/application.properties
+case $1 in
+    start)
+        echo "Starting $SERVICE_NAME ..."
+        if [ ! -f $PID_PATH_NAME ]; then
+            cd $HOME/current
+            nohup java -jar $PATH_TO_JAR --spring.config.location=application.properties > $LOG 2> $ERROR_LOG &
+                        echo $! > $PID_PATH_NAME
+            PID=$(cat $PID_PATH_NAME)
+            echo "$SERVICE_NAME started ...at pid is $PID "
+        else
+            PID=$(cat $PID_PATH_NAME)
+            echo "$SERVICE_NAME is already running ...at pid is $PID"
+        fi
+    ;;
+    stop)
+        if [ -f $PID_PATH_NAME ]; then
+            PID=$(cat $PID_PATH_NAME);
+            echo "$SERVICE_NAME stoping ... pid is $PID"
+            kill $PID;
+            echo "$SERVICE_NAME stopped ..."
+            rm $PID_PATH_NAME
+        else
+            echo "$SERVICE_NAME is not running ..."
+        fi
+    ;;
+    restart)
+        if [ -f $PID_PATH_NAME ]; then
+            PID=$(cat $PID_PATH_NAME);
+            echo "$SERVICE_NAME stopping ...";
+            kill $PID;
+            echo "$SERVICE_NAME stopped ...";
+            rm $PID_PATH_NAME
+            echo "$SERVICE_NAME starting ..."
+            cd $HOME/current
+            nohup java -jar $PATH_TO_JAR --spring.config.location=application.properties > $LOG 2> $ERROR_LOG &
+                        echo $! > $PID_PATH_NAME
+            echo "$SERVICE_NAME started ..."
+        else
+            echo "$SERVICE_NAME is not running ..."
+        fi
+    ;;
+esac
